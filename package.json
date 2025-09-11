@@ -1,0 +1,44 @@
+{
+
+  "name": "baileys-bot",
+
+  "version": "1.0.0",
+
+  "description": "A simple WhatsApp bot using Baileys.",
+
+  "main": "main.js",
+
+  "scripts": {
+
+    "start": "node main.js",
+
+    "test": "echo \"Error: no test specified\" && exit 1"
+
+  },
+
+  "keywords": [
+
+    "whatsapp-bot",
+
+    "baileys"
+
+  ],
+
+  "author": "Fyxzpedia",
+
+  "license": "ISC",
+
+  "dependencies": {
+
+    "@whiskeysockets/baileys": "latest",
+
+    "pino": "^8.21.0",
+
+    "qrcode-terminal": "^0.12.0",
+
+    "cli-color": "^2.0.4"
+
+  }
+
+}
+
